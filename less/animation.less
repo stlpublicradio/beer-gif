@@ -1,0 +1,115 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+@import "../bower_components/less-prefixer/prefixer.less";
+
+@img-root: "../img";
+@screen-small-above: ~"screen and (min-width: 768px)";
+
+body {
+	position: relative;
+}
+.animated {
+    .animation-fill-mode(both);
+    .animation-duration(1s);
+}
+
+    .filmstrip-outer-wrapper {
+        width: 100%;
+        margin-bottom: 1em;
+
+        .filmstrip-wrapper {
+            width: 1280px;
+            height: 720px;
+        }
+
+        .filmstrip {
+            width: 100%;
+            height: 100%;
+            .backface-visibility(hidden);
+
+	    &.tap {
+	            
+	                background-image: url('@{img-root}/tap_1280_filmstrip.jpg');
+	                background-size: 100% 1700%;
+	            }
+
+	    	    &.animated {
+	                    .animation(filmstrip 4s infinite);
+	    }
+	    
+	    &.grain {
+	            
+	                background-image: url('@{img-root}/grain_1280_filmstrip.jpg');
+	                background-size: 100% 1700%;
+	            }
+
+	    	    &.animated {
+	                    .animation(filmstrip 6s infinite);
+	    }
+		    
+	    &.mash {
+	            
+	                background-image: url('@{img-root}/mash_1280_filmstrip.jpg');
+	                background-size: 100% 1700%;
+	            }
+
+	    	    &.animated {
+	                    .animation(filmstrip 3s infinite);
+	    }
+
+	    &.ferment {
+	            
+	                background-image: url('@{img-root}/ferment_1280_filmstrip.jpg');
+	                background-size: 100% 1700%;
+	            }
+
+	    	    &.animated {
+	                    .animation(filmstrip 4s infinite);
+	    }
+
+	    &.package {
+	            
+	                background-image: url('@{img-root}/package_1280_filmstrip.jpg');
+	                background-size: 100% 1700%;
+	            }
+
+	    	    &.animated {
+	                    .animation(filmstrip 4s infinite);
+	    }
+
+	    &.rake {
+	            
+	                background-image: url('@{img-root}/rake_1280_filmstrip.jpg');
+	                background-size: 100% 1700%;
+	            }
+
+	    	    &.animated {
+	                    .animation(filmstrip 4s infinite);
+	    }
+
+	    
+	    }
+        }
+	
+	
+	.affix {
+		position: fixed;
+		top: 20px;
+	}
+	
+	.affix-top {
+		position: relative;
+	}
+	
+	.affix-bottom {
+	position: relative;
+		}
+		
+		.brewery {
+			width: 60%;
+			.center-block();
+		
+			h2 {
+				font-weight: 200;
+				color: @gray-light;
+			}
+		}

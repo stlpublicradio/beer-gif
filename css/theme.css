@@ -422,7 +422,15 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
   /* IE6-9 */
 }
-#credits p {
+.explainer {
+  margin-bottom: 80px;
+  font-size: 17.5px;
+  color: #555555;
+}
+#rake .explainer {
+  margin-bottom: 10px;
+}
+.credits p {
   font-weight: 200;
   font-size: 18px;
   color: #777777;

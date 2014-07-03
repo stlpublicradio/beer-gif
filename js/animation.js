@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	var $filmstrip_tap = $('#tap').find('.filmstrip-wrapper');
 	var $filmstrip_tap_wrapper = $('#tap').find('.filmstrip-outer-wrapper');
-	var $filmstrip_grain = $('#gif-body').find('.filmstrip-wrapper');
-	var $filmstrip_grain_wrapper = $('#gif-body').find('.filmstrip-outer-wrapper');
+	var $filmstrip_grain = $('#main-gifs').find('.filmstrip-wrapper');
+	var $filmstrip_grain_wrapper = $('#main-gifs').find('.filmstrip-outer-wrapper');
 	var filmstrip_grain_aspect_width = 1280;
 	var filmstrip_grain_aspect_height = 720;
 	var $filmstrip_rake = $('#rake').find('.filmstrip-wrapper');

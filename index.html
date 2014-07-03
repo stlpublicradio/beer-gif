@@ -4,8 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Bud vs. Microbrew: How Beer is Made
+(In GIFs!)">
+    <meta name="author" content="St. Louis Public Radio">
+    <meta name="twitter:card" content="img/tap.gif">
+    <meta name="twitter:site" content="@stlpublicradio">
+    <meta name="twitter:creator" content="@JiangJess">
+    <meta name="twitter:title" content="Bud vs. Microbrew: How Beer is Made
+(In GIFs!)">
+    <meta name="twitter:description" content="Methods for brewing beer are pretty similar. But Anheuser-Busch in St. Louis -- 15 million barrels a year -- looks very different from Perennial Artisan Ales in south city, making a couple thousand.">
+    <meta name="twitter:image:src" content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg">
     <link rel="icon" href="favicon.ico">
 
     <title>GIF Beer</title>
@@ -39,16 +47,21 @@
 			<div class="visible-xs visible-sm"><h1 class="text-center">Bud vs. Microbrew: How Beer is Made</br>(In GIFs!)</h1></div>
 			<div class="credits"><p class="text-center">By Jess Jiang & Stephanie Zimmerman</p></div>
 			<div id="intro-text">
-				<p>The steps to brew beer are always pretty similar. You make the wort, add hops, allow the yeast to ferment the sugars, and carbonate and bottle the beer. But a brewery that makes 15 million barrels a year (like Anheuser-Busch’s St. Louis brewery) looks very different from one that makes about a couple thousand barrels (like Perennial Artisan Ales’ microbrewery).</p>
-		<p>Anheuser-Busch’s St. Louis brewery is one of the largest breweries in the world and makes Budweiser, Bud Light, and about two dozen other brands. Perennial is just three-years old, but its barrel-aged imperial stout, Abraxas, has a strong following. Here are just a few ways the breweries make beer differently.</p>
+				<p>The methods for brewing beer are always pretty similar. You make the wort; add hops; allow the yeast to ferment the sugars; then carbonate and bottle the beer. 
+				</p>
+				<p>
+					But a brewery that makes 15 million barrels a year (like Anheuser-Busch’s St. Louis brewery) looks very different from one that makes a couple thousand barrels (like Perennial Artisan Ales’ microbrewery in south city). 
+				</p>
+		<p><a href="http://anheuser-busch.com/index.php/our-beers/">Anheuser-Busch</a>’s St. Louis brewery is one of the largest breweries in the world and makes Budweiser, Bud Light, and about <a href="http://www.beeradvocate.com/beer/profile/29/">two dozen other brands</a>. <a href="http://www.perennialbeer.com/">Perennial</a> is just three years old, but its barrel-aged imperial stout, Abraxas, has <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.beeradvocate.com%2Fbeer%2Fprofile%2F25888%2F76393%2F&sa=D&sntz=1&usg=AFQjCNFGTQ3GbOFIZg3zeyz9HkoMLk0PJw">a strong following</a>. Here are just a few ways the breweries make beer differently.
+</p>
 			</div>
 		</div>
 	</div>
 	<div id="gif-body">
 	<div class="row">
 		<div id="schematic-column" class="col-md-2 hidden-sm hidden-xs">
-			<div id="schematic" data-spy="affix" data-offset-top="800" data-offset-bottom="900">
-				<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 100 600" enable-background="new 0 0 100 600" xml:space="preserve">
+			<div id="schematic" data-anchor-target="#gif-body" data-top="position:relative; top:0%; transform: translateY(0%);" data-500-bottom="position:relative; top:100%; transform: translateY(-100%);">
+				<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="800px" viewBox="0 0 100 600" enable-background="new 0 0 100 600" xml:space="preserve">
 					<g id="process">
 						<polyline data-anchor-target="#gif-body" data-0="stroke-dashoffset:1000;" data-500-bottom="stroke-dashoffset:0;" stroke-dasharray="1000" fill="none" stroke="rgba(241,187,79,1)" stroke-width="10" stroke-miterlimit="10" points="82,4 82,94 51,128 5,128 5,166 85,166 85,286 17,286 17,476 84,476 84,538 	"/>
 					</g>
@@ -256,12 +269,12 @@
 			</div>
 		</div>
 			<div id="main-gifs" class="col-md-10 col-xs-12">
-					<div class="row">
-					<div class="col-xs-6">
+					<div id="brewery-labels" class="row">
+					<div id="ab" class="col-xs-6">
 					<div class="brewery"><h2 class="text-center">Anheuser-Busch</h2></div>
 					</div>
 					<div class="col-xs-6">
-					<div class="brewery"><h2 class="text-center">Perennial Artisan Ales</h2></div>
+					<div class="brewery" id="perennial"><h2 class="text-center">Perennial Artisan Ales</h2></div>
 					</div>
 					</div>
 					<div id="grain">
@@ -275,7 +288,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="explainer"><p>Both breweries begin by unloading grain. At Anheuser-Busch, grain arrives daily on about a dozen train cars &mdash; each holding more than 150,000 lbs. Once a few hoses are connected, the grain is essentially vacuumed out. At Perennial, the brewer has to empty more than a dozen grain sacks one at a time &mdash; each weighs about 50 lbs.</p></div>
+						<div class="explainer"><p>Both breweries begin by unloading grain. At Anheuser-Busch, grain arrives daily on about a dozen train cars, each holding more than 150,000 lbs. Once a few hoses are connected, the grain is essentially vacuumed out. At Perennial, the brewer has to empty more than a dozen grain sacks one at a time, each weighs about 50 lbs.
+</p></div>
 					</div>
 					<div id="mash">
 						<div class="visible-xs visible-sm"><h3 class="text-center">Mixing the Mash</h3></div>
@@ -290,7 +304,9 @@
 							</div>
 						</div>
 						<div class="explainer">
-							<p>One of the first steps is to make the mash by mixing hot water with malted barley and other grains. At Anheuser-Busch, large mash cookers &mdash; basically huge mixers that are more than a story tall &mdash; automatically whirl around the grain and water. Each vessel holds about 500 barrels, and the brewery has 18 of them. Perennial has just one 8.5-barrel vessel to cook the mash. To mix the grains, the brewer needs a paddle and elbow grease.</p>
+							<p>One of the first steps is to make the mash by mixing hot water with malted barley and other grains. At Anheuser-Busch, large mash cookers &mdash; basically huge mixers that are more than a story tall &mdash; automatically whirl around the grain and water. Each vessel holds about 500 barrels, and the brewery has 18 of them. Perennial has just one 8.5-barrel vessel to cook the mash. To mix the grains, the brewer needs a paddle and elbow grease.
+
+</p>
 						</div>
 					</div>
 					<div id="ferment">
@@ -305,7 +321,8 @@
 							</div>
 						</div>
 						<div class="explainer">
-							<p>Anheuser-Busch has whole buildings devoted to housing its fermenting tanks. The columns supporting the fermenters are more than a story tall. The brewery has 27 primary fermenting tanks that altogether hold more than a hundred thousand barrels. Perennial has about a dozen fermenters that hold a total of 350 barrels.</p>
+							<p>Anheuser-Busch has whole buildings devoted to housing its fermenting tanks. The columns supporting the fermenters are more than a story tall. The brewery has 27 primary fermenting tanks that altogether hold more than 100,000 barrels. Perennial has about a dozen fermenters that hold a total of 350 barrels.
+</p>
 						</div>
 					</div>
 					<div id="package">
@@ -320,7 +337,8 @@
 							</div>
 						</div>
 						<div class="explainer">
-							<p>Bottling is labor-intensive at both breweries. At Anheuser-Busch, more than 300 people run about a dozen packaging lines. A line can produce about two thousand 12-oz cans a minute. The line moves so quickly, the red and white Bud cans are a blur. At Perennial, two people run the bottling machine. They rinse, move, and package the bottles by hand for a few hours. In that time, they can package more than a hundred bottles and just shy of a hundred kegs.</p>
+							<p>Bottling is labor-intensive at both breweries. At Anheuser-Busch, more than 300 people run about a dozen packaging lines. A line can produce about two thousand 12-oz cans a minute. The line moves so quickly, the red and white Bud cans are a blur. At Perennial, two people run the bottling machine. They rinse, move, and package the bottles by hand for a few hours. In that time, they can package more than a hundred bottles and just shy of a hundred kegs.
+</p>
 						</div>
 					</div>
 			</div>
@@ -330,7 +348,8 @@
 				<div id="rake">
 					<h3>P.S.</h3>
 					<div class="explainer">
-						<p>Not everything at the St. Louis Anheuser-Busch brewery is highly automated. During the finishing process, chips at the bottom of the large tanks help with fermentation and provide surface area for the yeast to settle on. Workers climb into huge tanks and rake the beechwood chips into an even layer.</p>
+						<p>Not everything at the St. Louis Anheuser-Busch brewery is highly automated. Before the beer goes into a secondary fermenter, workers must climb into the huge tanks and rake the beechwood chips into an even layer. The chips sit at the bottom of the large tanks and help provide surface area for the yeast to settle on during the fermentation process. 
+</p>
 					</div>
 					<div class="filmstrip-outer-wrapper">
 						<div class="filmstrip-wrapper">
@@ -338,6 +357,18 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<a href="#"><button type"button" class="btn btn-default btn-lg btn-block">Back to top</button></a>
+			</div>
+			<div class="col-xs-6">
+				<a href="http://www.stlpublicradio.org"><button type"button" class="btn btn-default btn-lg btn-block">Back to St. Louis Public Radio</button></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
 				<div class="credits">
 					<p class="text-center">Edited by Shula Neuman &bull; Designed by Brent Jones</p>
 					<p class="text-center">Schematic icons from The Noun Project: Fire by Jenny Amer; Hops by The Crew at Fusionary; Barrell by Randall Barriga; others public domain.</p>
@@ -362,7 +393,8 @@
     else
 window.onload = function() {
 	skrollr.init({
-		forceHeight: false
+		forceHeight: false,
+		smoothScrolling: true
 	});
 }
 

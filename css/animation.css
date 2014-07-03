@@ -6246,7 +6246,7 @@ body {
   background-image: url('../img/tap_1280_filmstrip.jpg');
   background-size: 100% 1700%;
 }
-.filmstrip-outer-wrapper .filmstrip.animated {
+.filmstrip-outer-wrapper .filmstrip.tap.animated {
   -webkit-animation: filmstrip 4s infinite;
   -moz-animation: filmstrip 4s infinite;
   -ms-animation: filmstrip 4s infinite;
@@ -6257,7 +6257,7 @@ body {
   background-image: url('../img/grain_1280_filmstrip.jpg');
   background-size: 100% 1700%;
 }
-.filmstrip-outer-wrapper .filmstrip.animated {
+.filmstrip-outer-wrapper .filmstrip.grain.animated {
   -webkit-animation: filmstrip 6s infinite;
   -moz-animation: filmstrip 6s infinite;
   -ms-animation: filmstrip 6s infinite;
@@ -6268,18 +6268,18 @@ body {
   background-image: url('../img/mash_1280_filmstrip.jpg');
   background-size: 100% 1700%;
 }
-.filmstrip-outer-wrapper .filmstrip.animated {
-  -webkit-animation: filmstrip 3s infinite;
-  -moz-animation: filmstrip 3s infinite;
-  -ms-animation: filmstrip 3s infinite;
-  -o-animation: filmstrip 3s infinite;
-  animation: filmstrip 3s infinite;
+.filmstrip-outer-wrapper .filmstrip.mash.animated {
+  -webkit-animation: filmstrip 1.5s infinite;
+  -moz-animation: filmstrip 1.5s infinite;
+  -ms-animation: filmstrip 1.5s infinite;
+  -o-animation: filmstrip 1.5s infinite;
+  animation: filmstrip 1.5s infinite;
 }
 .filmstrip-outer-wrapper .filmstrip.ferment {
   background-image: url('../img/ferment_1280_filmstrip.jpg');
   background-size: 100% 1700%;
 }
-.filmstrip-outer-wrapper .filmstrip.animated {
+.filmstrip-outer-wrapper .filmstrip.ferment.animated {
   -webkit-animation: filmstrip 4s infinite;
   -moz-animation: filmstrip 4s infinite;
   -ms-animation: filmstrip 4s infinite;
@@ -6290,7 +6290,7 @@ body {
   background-image: url('../img/package_1280_filmstrip.jpg');
   background-size: 100% 1700%;
 }
-.filmstrip-outer-wrapper .filmstrip.animated {
+.filmstrip-outer-wrapper .filmstrip.package.animated {
   -webkit-animation: filmstrip 4s infinite;
   -moz-animation: filmstrip 4s infinite;
   -ms-animation: filmstrip 4s infinite;
@@ -6301,7 +6301,7 @@ body {
   background-image: url('../img/rake_1280_filmstrip.jpg');
   background-size: 100% 1700%;
 }
-.filmstrip-outer-wrapper .filmstrip.animated {
+.filmstrip-outer-wrapper .filmstrip.rake.animated {
   -webkit-animation: filmstrip 4s infinite;
   -moz-animation: filmstrip 4s infinite;
   -ms-animation: filmstrip 4s infinite;
@@ -6311,6 +6311,7 @@ body {
 .affix {
   position: fixed;
   top: 20px;
+  transform: none;
 }
 .affix-top {
   position: relative;

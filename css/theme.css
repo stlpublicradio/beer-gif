@@ -410,8 +410,14 @@
   font-size: 17.5px;
   color: #555555;
 }
+h3 {
+  text-shadow: 2px 2px 5px #666;
+}
 #rake .explainer {
   margin-bottom: 10px;
+}
+#rake h3 {
+  text-shadow: none;
 }
 .credits {
   margin-top: 10px;
@@ -428,13 +434,12 @@
 #schematic-column {
   height: 2800px;
 }
-h3 {
-  text-shadow: 2px 2px 5px #666;
-}
 #ab {
   border-right: 3px solid #555555;
 }
 #brewery-labels {
   margin-bottom: 0px;
 }
-/*# sourceMappingURL=theme.css.map */
+.fb-like {
+  margin-top: -10px;
+}

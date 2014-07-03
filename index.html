@@ -416,6 +416,19 @@ window.onload = function() {
 	});
 }
 
+var scrollTimerId;
+
+$(window).scroll(function() {
+    if (!scrollTimerId)
+       $('.filmstrip').removeClass('animated');
+
+    clearTimeout(scrollTimerId);
+    scrollTimerId = setTimeout(function(){
+        $('.filmstrip').addClass('animated');
+           scrollTimerId = undefined;
+    },150);
+});
+
 </script>
   </body>
 </html>
